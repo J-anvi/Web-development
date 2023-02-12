@@ -1,0 +1,197 @@
+/* Reset the CSS */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+    opacity: 0.7;
+}
+
+
+/* -------------> Image Section 1 CSS <-------------  */
+.img_section_1{
+    height: 100vh;
+    /* border: 2px solid blue; */
+    background-image: url(/images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    /* opacity: 0.7; */
+}
+.img_section_1 .img_sec1_txt 
+{
+   text-align: center;
+   position: relative;
+   top: 50%;
+   font-size: 30px;
+   text-transform: uppercase;
+   letter-spacing: 10px;
+}
+ .img_section_1 .img_sec1_txt div{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+ }
+/* -------------> Section 1 CSS <-------------  */
+.section_1
+{
+    /* border: 2px solid red; */
+    background-color: wheat;
+    height: 35vh;
+    background-attachment: fixed;
+}
+
+.section_1 .sec1_title
+{
+    /* border: 2px solid black; */
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding:25px;
+}
+
+.section_1 .sec1_containt
+{
+    /* border: 2px solid blue; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 0 35px;
+}
+
+/* -------------> Image Section 2 CSS <-------------  */
+.img_section_2
+{
+    background-image: url(/images/2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    height: 100vh;    
+       
+}
+.img_section_2 .img_sec2_txt 
+{
+   text-align: center;
+   position: relative;
+   top: 50%;
+   font-size: 35px;
+   text-transform: uppercase;
+   letter-spacing: 10px;
+}
+.img_section_2 .img_sec2_txt div{
+    display: inline-block;
+    background-color: transparent;
+}
+
+/* -------------> Section 2 CSS <-------------  */
+.section_2
+{
+    /* border: 2px solid red; */
+    background-color: black;
+    color: white;
+    height: 40vh;
+    background-attachment: fixed;
+}
+
+.section_2 .sec2_title
+{
+    /* border: 2px solid black; */
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding:25px;
+}
+
+.section_2 .sec2_containt
+{
+    /* border: 2px solid blue; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 0 35px;
+}
+
+/* -------------> Image Section 3 CSS <-------------  */
+.img_section_3
+{
+    /* border: 2px solid salmon; */
+    background-image: url(/images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: scroll;
+    height: 100vh; 
+}
+
+.img_section_3 .img_sec3_txt 
+{
+   text-align: center;
+   position: relative;
+   top: 50%;
+   font-size: 35px;
+   text-transform: uppercase;
+   letter-spacing: 10px;
+   /* color: white; */
+}
+.img_section_3 .img_sec3_txt div{
+    display: inline-block;
+    color: wheat;
+    background-color: transparent;
+}
+
+
+/* -------------> Section 3 CSS <-------------  */
+.section_3
+{
+    /* border: 2px solid red; */
+    background-color: black;
+    color: white;
+    height: 40vh;
+    background-attachment: fixed;
+}
+
+.section_3 .sec3_title
+{
+    /* border: 2px solid black; */
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding:25px;
+    /* margin: bottom 10px; */
+}
+
+.section_3 .sec3_containt
+{
+    /* border: 2px solid blue; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 0 35px;
+}
+
+/* -------------> Image Section 4 CSS <-------------  */
+.img_section_4{
+    height: 100vh;
+    /* border: 2px solid blue; */
+    background-image: url(/images/4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+.img_section_4 .img_sec4_txt 
+{
+   text-align: center;
+   position: relative;
+   top: 50%;
+   font-size: 30px;
+   text-transform: uppercase;
+   letter-spacing: 10px;
+}
+ .img_section_4 .img_sec4_txt div{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+ }
