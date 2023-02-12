@@ -10,6 +10,11 @@ html
     opacity: 0.7;
 }
 
+html::-webkit-scrollbar {
+    display: none;
+  }
+
+
 
 /* -------------> Image Section 1 CSS <-------------  */
 .img_section_1{
